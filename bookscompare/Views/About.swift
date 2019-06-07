@@ -17,8 +17,12 @@ struct About : View {
     var body: some View {
 //        NavigationView {
             VStack {
-                Text("BooksCompare")
-                Text("Version 2.0.0-beta")
+                Text("好書價 BooksCompare")
+                    .font(.headline)
+                    .padding(.vertical, 1.0)
+                    Text("版本 v.2.0.0-beta")
+                        .font(.subheadline)
+                
                 
                 List {
                     NavigationButton(destination: Text("test")) {
@@ -34,6 +38,8 @@ struct About : View {
                         AboutRow(title: "(c) 2019 Andrew Mok", icon: "house.fill")
                     }
                 }
+                // .padding(.vertical, 8.0)
+//                .listStyle(.grouped)
             }
 //        }
     }
