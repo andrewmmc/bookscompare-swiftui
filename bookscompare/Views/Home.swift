@@ -20,8 +20,8 @@ struct Home : View {
                     .tabItemLabel(Text("Search"))
                     .tag(0)
                 About()
-                    .tabItemLabel(Text("About"))
                     .tag(1)
+                    .tabItemLabel(Text("About"))
             }
         }
     }
