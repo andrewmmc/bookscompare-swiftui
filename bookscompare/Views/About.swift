@@ -15,7 +15,7 @@ import SwiftUI
 
 struct About : View {
     var body: some View {
-        NavigationView {
+//        NavigationView {
             VStack {
                 Text("BooksCompare")
                 Text("Version 2.0.0-beta")
@@ -35,7 +35,7 @@ struct About : View {
                     }
                 }
             }
-        }
+//        }
     }
 }
 

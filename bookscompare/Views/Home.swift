@@ -6,23 +6,22 @@
 //  Copyright © 2019 Andrew Mok. All rights reserved.
 //
 
-import SwiftUI
-
-struct Home : View {
-    var body: some View {
-        NavigationView {
-            TabbedView {
-                Search()
 //                    .tabItemLabel {
 //                        Image(systemName: "clock.fill")
 //                        Text("Search")
 //                    }
-                    .tabItemLabel(Text("Search"))
-                    .tag(0)
-                About()
-                    .tag(1)
-                    .tabItemLabel(Text("About"))
-            }
+
+import SwiftUI
+
+struct Home : View {
+    var body: some View {
+        TabbedView {
+            Search()
+                .tabItemLabel(Text("Search"))
+                .tag(0)
+            About()
+                .tag(1)
+                .tabItemLabel(Text("About"))
         }
     }
 }
