@@ -19,6 +19,8 @@
 		30369F1622AAD8DF005851F7 /* SearchResults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30369F1522AAD8DF005851F7 /* SearchResults.swift */; };
 		30369F1822AAD955005851F7 /* SearchResultsRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30369F1722AAD955005851F7 /* SearchResultsRow.swift */; };
 		30369F1D22AAE696005851F7 /* Search.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30369F1C22AAE696005851F7 /* Search.swift */; };
+		30369F1F22AAEE18005851F7 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30369F1E22AAEE18005851F7 /* Home.swift */; };
+		30369F2122AAEF92005851F7 /* About.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30369F2022AAEF92005851F7 /* About.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +59,8 @@
 		30369F1522AAD8DF005851F7 /* SearchResults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResults.swift; sourceTree = "<group>"; };
 		30369F1722AAD955005851F7 /* SearchResultsRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultsRow.swift; sourceTree = "<group>"; };
 		30369F1C22AAE696005851F7 /* Search.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Search.swift; sourceTree = "<group>"; };
+		30369F1E22AAEE18005851F7 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		30369F2022AAEF92005851F7 /* About.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = About.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -168,6 +172,8 @@
 				30369F1522AAD8DF005851F7 /* SearchResults.swift */,
 				30369F1722AAD955005851F7 /* SearchResultsRow.swift */,
 				30369F1C22AAE696005851F7 /* Search.swift */,
+				30369F1E22AAEE18005851F7 /* Home.swift */,
+				30369F2022AAEF92005851F7 /* About.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -309,6 +315,8 @@
 				30369F1822AAD955005851F7 /* SearchResultsRow.swift in Sources */,
 				30369EE222AAC8D5005851F7 /* SceneDelegate.swift in Sources */,
 				30369EE422AAC8D5005851F7 /* ContentView.swift in Sources */,
+				30369F1F22AAEE18005851F7 /* Home.swift in Sources */,
+				30369F2122AAEF92005851F7 /* About.swift in Sources */,
 				30369F1D22AAE696005851F7 /* Search.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
