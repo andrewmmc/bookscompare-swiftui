@@ -10,7 +10,21 @@ import SwiftUI
 
 struct SearchResults : View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello World!"/*@END_MENU_TOKEN@*/)
+        NavigationView {
+            HStack {
+                Text("We found xxx results for you.")
+                Spacer()
+                }
+                .padding(.horizontal)
+            List(/*@START_MENU_TOKEN@*/0 ..< 5/*@END_MENU_TOKEN@*/) { item in
+                // destination: -> webview here
+                NavigationButton(destination: Text("test")) {
+                    SearchResultsRow()
+                        .padding(.trailing)
+                }
+            }
+            .navigationBarTitle(Text("Search Results"), displayMode: .large)
+        }
     }
 }
 

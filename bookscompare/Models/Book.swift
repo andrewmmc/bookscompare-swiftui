@@ -14,7 +14,7 @@ struct Book: Codable, Hashable, Identifiable {
     var category: String
     var author: String
     var publisher: String
-    var price: String // double
+    var price: String // convert to double?
     var priceCurrency: String
     var url: String
     var image_url: String
