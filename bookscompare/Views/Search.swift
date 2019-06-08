@@ -12,28 +12,49 @@ struct Search : View {
     @State var query = ""
     var body: some View {
         VStack {
-            Text("Search your book price with ISBN number")
+            
+            Image(systemName: "magnifyingglass")
+                .foregroundColor(Color("primary"))
+//              .padding(.trailing, 4.0)
+            
+            Text("掃描或輸入書本的國際標準書號 (ISBN 碼)，讓您輕鬆以最心儀的價格買入！")
+                .lineLimit(4)
 
             HStack {
                 TextField(
                     $query,
                     placeholder:
-                    Text("ISBN Number")
+                    Text("ISBN 碼")
                         .color(Color.gray)
                     )
                     .frame(height: 32)
                     .padding()
                     .border(Color.gray, width: 1)
                 // Button here
+                
+                Button(action: {}) {
+                    Image(systemName: "magnifyingglass")
+                        .foregroundColor(Color.white)
+                }
+                .padding()
+                .frame(height: 32)
+                .background(Color("primary"))
+                .foregroundColor(Color.white)
+                .cornerRadius(8)
+                .disabled(true)
             }
             .padding(.vertical)
 
             Button(action: {}) {
-                Text("Search")
+                HStack {
+                    Image(systemName: "magnifyingglass")
+                        .foregroundColor(Color.white)
+                    Text("搜尋好書價")
+                }
             }
-            .padding(.vertical, 12)
+            .padding(.vertical, 10)
             .padding(.horizontal, 16)
-            .background(Color.black)
+            .background(Color("primary"))
             .foregroundColor(Color.white)
             .cornerRadius(8)
         }
